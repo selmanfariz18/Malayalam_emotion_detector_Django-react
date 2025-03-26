@@ -1,0 +1,10 @@
+.model-selector {
+  margin: 10px 0;
+}
+
+.model-selector select {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}

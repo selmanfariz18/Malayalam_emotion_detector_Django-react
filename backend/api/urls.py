@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import EmotionPredictor
+from .views import PredictEmotion
 
 urlpatterns = [
-    path('predict/', EmotionPredictor.as_view(), name='emotion-predict'),
+    path('predict/', PredictEmotion.as_view(), name='emotion-predict'),
 ]
